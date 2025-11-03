@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-color: rgb(15, 107, 76);
+  color: white;
+
+}
+
+.image {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #deb887;
+}
+
+.age {
+  background-color: #deb887;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.date {
+  background-color: #deb887;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-shadow: 2px 2px 2px black;
+}
+
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift-image {
+  width: 400px;
+  height: 400px;
+  margin-top: 5px;
+  background-size: cover;
+  border: 2px solid rgb(255, 255, 255);
+  background-image: url("gift-image.png");
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gift-image:hover{
+  background-image: url("gift-4.gif");
+}
+
+.gift-hint{
+  margin: 0px;
+}
+
+#react-gift:hover{
+  background-image: url("gift-2.gif");
+}
+
+#enjoy-gift:hover{
+  background-image: url("gift-1.gif");
+}
+
+#pumkin-gift:hover{
+  background-image: url("gift-3.gif");
+}
+
+#final-gift{
+  height: 220px;
+}
+
+#final-gift:hover{
+  background-image: url("final\ gift.gif");
+}
+
+#contact-me{
+  color: white;
+  text-decoration: solid underline;
+}
